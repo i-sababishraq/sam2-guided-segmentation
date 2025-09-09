@@ -1,0 +1,978 @@
+{
+  "baseline": {
+    "person_dice": 0.03,
+    "person_iou": 0.02,
+    "vehicle_dice": 0.16,
+    "vehicle_iou": 0.11,
+    "overall_dice": 0.1,
+    "overall_iou": 0.07,
+    "total_time": 813.84,
+    "avg_time_per_image": 8.14,
+    "num_images": 100,
+    "num_person_samples": 90,
+    "num_vehicle_samples": 100,
+    "config": {
+      "method": "official_sam2_automatic",
+      "model_cfg": "sam2_hiera_l.yaml",
+      "uses_automatic_mask_generator": true
+    }
+  },
+  "novel_method": {
+    "person": {
+      "mean_dice": 0.51,
+      "std_dice": 0.34,
+      "median_dice": 0.57,
+      "min_dice": 0.0,
+      "max_dice": 1.0,
+      "mean_iou": 0.41,
+      "std_iou": 0.32,
+      "median_iou": 0.4,
+      "min_iou": 0.0,
+      "max_iou": 1.0,
+      "num_images": 100
+    },
+    "vehicle": {
+      "mean_dice": 0.76,
+      "std_dice": 0.31,
+      "median_dice": 0.93,
+      "min_dice": 0.0,
+      "max_dice": 1.0,
+      "mean_iou": 0.69,
+      "std_iou": 0.31,
+      "median_iou": 0.87,
+      "min_iou": 0.0,
+      "max_iou": 1.0,
+      "num_images": 100
+    },
+    "overall": {
+      "mean_dice": 0.63,
+      "std_dice": 0.24,
+      "median_dice": 0.65,
+      "min_dice": 0.0,
+      "max_dice": 0.98,
+      "mean_iou": 0.55,
+      "std_iou": 0.23,
+      "median_iou": 0.55,
+      "min_iou": 0.0,
+      "max_iou": 0.97,
+      "num_images": 100
+    },
+    "method_name": "YOLO+SAM2",
+    "total_images": 100,
+    "processed_images": 100,
+    "detailed_results": [
+      {
+        "filename": "0016E5_08091.png",
+        "person_dice": 0.5844622850418091,
+        "person_iou": 0.41289061307907104,
+        "vehicle_dice": 0.0,
+        "vehicle_iou": 0.0,
+        "overall_dice": 0.29223114252090454,
+        "overall_iou": 0.20644530653953552
+      },
+      {
+        "filename": "Seq05VD_f02970.png",
+        "person_dice": 0.8517509698867798,
+        "person_iou": 0.7417824268341064,
+        "vehicle_dice": 0.957217276096344,
+        "vehicle_iou": 0.9179450869560242,
+        "overall_dice": 0.9044841527938843,
+        "overall_iou": 0.8298637866973877
+      },
+      {
+        "filename": "Seq05VD_f00210.png",
+        "person_dice": 0.8547442555427551,
+        "person_iou": 0.7463347911834717,
+        "vehicle_dice": 0.9689751863479614,
+        "vehicle_iou": 0.9398175477981567,
+        "overall_dice": 0.9118597507476807,
+        "overall_iou": 0.8430761694908142
+      },
+      {
+        "filename": "0016E5_08005.png",
+        "person_dice": 0.4044780731201172,
+        "person_iou": 0.2535083293914795,
+        "vehicle_dice": 0.6253167986869812,
+        "vehicle_iou": 0.4548806846141815,
+        "overall_dice": 0.5148974657058716,
+        "overall_iou": 0.3541945219039917
+      },
+      {
+        "filename": "0016E5_04770.png",
+        "person_dice": 0.25974026322364807,
+        "person_iou": 0.1492537260055542,
+        "vehicle_dice": 0.9548410177230835,
+        "vehicle_iou": 0.9135844707489014,
+        "overall_dice": 0.6072906255722046,
+        "overall_iou": 0.5314190983772278
+      },
+      {
+        "filename": "0006R0_f02580.png",
+        "person_dice": 0.37067005038261414,
+        "person_iou": 0.22749844193458557,
+        "vehicle_dice": 0.9603585004806519,
+        "vehicle_iou": 0.923740029335022,
+        "overall_dice": 0.6655142903327942,
+        "overall_iou": 0.5756192207336426
+      },
+      {
+        "filename": "Seq05VD_f03180.png",
+        "person_dice": 0.0,
+        "person_iou": 0.0,
+        "vehicle_dice": 0.9623607397079468,
+        "vehicle_iou": 0.9274521470069885,
+        "overall_dice": 0.4811803698539734,
+        "overall_iou": 0.46372607350349426
+      },
+      {
+        "filename": "Seq05VD_f03870.png",
+        "person_dice": 1.0,
+        "person_iou": 1.0,
+        "vehicle_dice": 0.42927902936935425,
+        "vehicle_iou": 0.2733006179332733,
+        "overall_dice": 0.7146395146846771,
+        "overall_iou": 0.6366503089666367
+      },
+      {
+        "filename": "0016E5_08151.png",
+        "person_dice": 0.0,
+        "person_iou": 0.0,
+        "vehicle_dice": 0.0,
+        "vehicle_iou": 0.0,
+        "overall_dice": 0.0,
+        "overall_iou": 0.0
+      },
+      {
+        "filename": "Seq05VD_f02280.png",
+        "person_dice": 0.8095108270645142,
+        "person_iou": 0.6799817085266113,
+        "vehicle_dice": 0.8442796468734741,
+        "vehicle_iou": 0.7305224537849426,
+        "overall_dice": 0.8268952369689941,
+        "overall_iou": 0.7052520513534546
+      },
+      {
+        "filename": "Seq05VD_f01440.png",
+        "person_dice": 0.0,
+        "person_iou": 0.0,
+        "vehicle_dice": 0.960105836391449,
+        "vehicle_iou": 0.9232726693153381,
+        "overall_dice": 0.4800529181957245,
+        "overall_iou": 0.46163633465766907
+      },
+      {
+        "filename": "Seq05VD_f00780.png",
+        "person_dice": 0.8056764602661133,
+        "person_iou": 0.6745880842208862,
+        "vehicle_dice": 0.11270295828580856,
+        "vehicle_iou": 0.0597166009247303,
+        "overall_dice": 0.4591897130012512,
+        "overall_iou": 0.3671523332595825
+      },
+      {
+        "filename": "0016E5_06270.png",
+        "person_dice": 0.0,
+        "person_iou": 0.0,
+        "vehicle_dice": 0.9720579385757446,
+        "vehicle_iou": 0.9456349015235901,
+        "overall_dice": 0.4860289692878723,
+        "overall_iou": 0.47281745076179504
+      },
+      {
+        "filename": "0016E5_01410.png",
+        "person_dice": 0.5690636038780212,
+        "person_iou": 0.3976861834526062,
+        "vehicle_dice": 0.946018636226654,
+        "vehicle_iou": 0.8975667953491211,
+        "overall_dice": 0.7575411200523376,
+        "overall_iou": 0.647626519203186
+      },
+      {
+        "filename": "0016E5_05430.png",
+        "person_dice": 0.7777993679046631,
+        "person_iou": 0.6363925337791443,
+        "vehicle_dice": 0.9687040448188782,
+        "vehicle_iou": 0.9393075704574585,
+        "overall_dice": 0.8732516765594482,
+        "overall_iou": 0.787850022315979
+      },
+      {
+        "filename": "0006R0_f01320.png",
+        "person_dice": 0.6129754185676575,
+        "person_iou": 0.4419354796409607,
+        "vehicle_dice": 0.9614243507385254,
+        "vehicle_iou": 0.9257143139839172,
+        "overall_dice": 0.787199854850769,
+        "overall_iou": 0.683824896812439
+      },
+      {
+        "filename": "0001TP_009960.png",
+        "person_dice": 0.16386307775974274,
+        "person_iou": 0.08924338966608047,
+        "vehicle_dice": 0.553384006023407,
+        "vehicle_iou": 0.3825368881225586,
+        "overall_dice": 0.35862353444099426,
+        "overall_iou": 0.23589013516902924
+      },
+      {
+        "filename": "0016E5_07170.png",
+        "person_dice": 0.6162731647491455,
+        "person_iou": 0.44537195563316345,
+        "vehicle_dice": 0.9189743399620056,
+        "vehicle_iou": 0.8500948548316956,
+        "overall_dice": 0.767623782157898,
+        "overall_iou": 0.6477333903312683
+      },
+      {
+        "filename": "0016E5_08147.png",
+        "person_dice": 0.07520962506532669,
+        "person_iou": 0.039074189960956573,
+        "vehicle_dice": 0.0,
+        "vehicle_iou": 0.0,
+        "overall_dice": 0.037604812532663345,
+        "overall_iou": 0.019537094980478287
+      },
+      {
+        "filename": "Seq05VD_f03840.png",
+        "person_dice": 1.0,
+        "person_iou": 1.0,
+        "vehicle_dice": 0.8536714315414429,
+        "vehicle_iou": 0.7447004318237305,
+        "overall_dice": 0.9268357157707214,
+        "overall_iou": 0.8723502159118652
+      },
+      {
+        "filename": "0016E5_04830.png",
+        "person_dice": 0.14192822575569153,
+        "person_iou": 0.07638468593358994,
+        "vehicle_dice": 0.7889959812164307,
+        "vehicle_iou": 0.651522159576416,
+        "overall_dice": 0.4654620885848999,
+        "overall_iou": 0.3639534115791321
+      },
+      {
+        "filename": "0006R0_f02790.png",
+        "person_dice": 0.9303432106971741,
+        "person_iou": 0.8697586059570312,
+        "vehicle_dice": 0.9728925228118896,
+        "vehicle_iou": 0.9472158551216125,
+        "overall_dice": 0.9516178369522095,
+        "overall_iou": 0.9084872007369995
+      },
+      {
+        "filename": "0016E5_04740.png",
+        "person_dice": 0.0,
+        "person_iou": 0.0,
+        "vehicle_dice": 0.9413895010948181,
+        "vehicle_iou": 0.8892690539360046,
+        "overall_dice": 0.47069475054740906,
+        "overall_iou": 0.4446345269680023
+      },
+      {
+        "filename": "0016E5_05400.png",
+        "person_dice": 0.6761696934700012,
+        "person_iou": 0.5107676982879639,
+        "vehicle_dice": 0.9655846357345581,
+        "vehicle_iou": 0.9334592223167419,
+        "overall_dice": 0.820877194404602,
+        "overall_iou": 0.7221134901046753
+      },
+      {
+        "filename": "0016E5_07800.png",
+        "person_dice": 0.7536224126815796,
+        "person_iou": 0.6046501994132996,
+        "vehicle_dice": 0.8608469367027283,
+        "vehicle_iou": 0.755690336227417,
+        "overall_dice": 0.8072346448898315,
+        "overall_iou": 0.6801702976226807
+      },
+      {
+        "filename": "0016E5_01380.png",
+        "person_dice": 0.0,
+        "person_iou": 0.0,
+        "vehicle_dice": 0.9613820910453796,
+        "vehicle_iou": 0.9256359934806824,
+        "overall_dice": 0.4806910455226898,
+        "overall_iou": 0.4628179967403412
+      },
+      {
+        "filename": "Seq05VD_f02310.png",
+        "person_dice": 0.7283196449279785,
+        "person_iou": 0.5727222561836243,
+        "vehicle_dice": 0.8667412996292114,
+        "vehicle_iou": 0.7648221254348755,
+        "overall_dice": 0.797530472278595,
+        "overall_iou": 0.6687722206115723
+      },
+      {
+        "filename": "0016E5_07740.png",
+        "person_dice": 0.791095495223999,
+        "person_iou": 0.6543903946876526,
+        "vehicle_dice": 0.7067779302597046,
+        "vehicle_iou": 0.5465247631072998,
+        "overall_dice": 0.7489367127418518,
+        "overall_iou": 0.6004575490951538
+      },
+      {
+        "filename": "0016E5_00750.png",
+        "person_dice": 0.0,
+        "person_iou": 0.0,
+        "vehicle_dice": 0.9202482104301453,
+        "vehicle_iou": 0.8522775769233704,
+        "overall_dice": 0.46012410521507263,
+        "overall_iou": 0.4261387884616852
+      },
+      {
+        "filename": "0016E5_06300.png",
+        "person_dice": 0.0,
+        "person_iou": 0.0,
+        "vehicle_dice": 0.9774506688117981,
+        "vehicle_iou": 0.9558958411216736,
+        "overall_dice": 0.48872533440589905,
+        "overall_iou": 0.4779479205608368
+      },
+      {
+        "filename": "0016E5_00510.png",
+        "person_dice": 0.0019455252913758159,
+        "person_iou": 0.0009737098589539528,
+        "vehicle_dice": 0.594082772731781,
+        "vehicle_iou": 0.42255884408950806,
+        "overall_dice": 0.2980141341686249,
+        "overall_iou": 0.21176627278327942
+      },
+      {
+        "filename": "Seq05VD_f00180.png",
+        "person_dice": 0.0,
+        "person_iou": 0.0,
+        "vehicle_dice": 0.9745206236839294,
+        "vehicle_iou": 0.9503074288368225,
+        "overall_dice": 0.4872603118419647,
+        "overall_iou": 0.47515371441841125
+      },
+      {
+        "filename": "0016E5_08640.png",
+        "person_dice": 0.7561095356941223,
+        "person_iou": 0.6078585982322693,
+        "vehicle_dice": 0.9646022915840149,
+        "vehicle_iou": 0.9316248893737793,
+        "overall_dice": 0.8603559136390686,
+        "overall_iou": 0.7697417736053467
+      },
+      {
+        "filename": "Seq05VD_f02370.png",
+        "person_dice": 0.7160493731498718,
+        "person_iou": 0.557692289352417,
+        "vehicle_dice": 0.965583086013794,
+        "vehicle_iou": 0.9334564208984375,
+        "overall_dice": 0.8408162593841553,
+        "overall_iou": 0.7455743551254272
+      },
+      {
+        "filename": "0001TP_009030.png",
+        "person_dice": 0.2747156620025635,
+        "person_iou": 0.15922920405864716,
+        "vehicle_dice": 0.9737765192985535,
+        "vehicle_iou": 0.9488931894302368,
+        "overall_dice": 0.6242461204528809,
+        "overall_iou": 0.5540611743927002
+      },
+      {
+        "filename": "0016E5_02220.png",
+        "person_dice": 0.9363504648208618,
+        "person_iou": 0.8803185224533081,
+        "vehicle_dice": 0.8914873003959656,
+        "vehicle_iou": 0.8042193055152893,
+        "overall_dice": 0.9139188528060913,
+        "overall_iou": 0.8422689437866211
+      },
+      {
+        "filename": "0016E5_08049.png",
+        "person_dice": 0.3716234862804413,
+        "person_iou": 0.22821718454360962,
+        "vehicle_dice": 0.9466152787208557,
+        "vehicle_iou": 0.8986415266990662,
+        "overall_dice": 0.6591193675994873,
+        "overall_iou": 0.5634293556213379
+      },
+      {
+        "filename": "Seq05VD_f03210.png",
+        "person_dice": 0.2979552149772644,
+        "person_iou": 0.17505720257759094,
+        "vehicle_dice": 0.9546279311180115,
+        "vehicle_iou": 0.9131944179534912,
+        "overall_dice": 0.6262915730476379,
+        "overall_iou": 0.5441257953643799
+      },
+      {
+        "filename": "0016E5_05670.png",
+        "person_dice": 0.0,
+        "person_iou": 0.0,
+        "vehicle_dice": 0.946051836013794,
+        "vehicle_iou": 0.897626519203186,
+        "overall_dice": 0.473025918006897,
+        "overall_iou": 0.448813259601593
+      },
+      {
+        "filename": "0006R0_f01290.png",
+        "person_dice": 0.0,
+        "person_iou": 0.0,
+        "vehicle_dice": 0.9518632292747498,
+        "vehicle_iou": 0.9081478714942932,
+        "overall_dice": 0.4759316146373749,
+        "overall_iou": 0.4540739357471466
+      },
+      {
+        "filename": "Seq05VD_f02940.png",
+        "person_dice": 0.8291310667991638,
+        "person_iou": 0.7081331014633179,
+        "vehicle_dice": 0.9432469010353088,
+        "vehicle_iou": 0.8925896883010864,
+        "overall_dice": 0.8861889839172363,
+        "overall_iou": 0.8003613948822021
+      },
+      {
+        "filename": "Seq05VD_f01680.png",
+        "person_dice": 0.39574089646339417,
+        "person_iou": 0.24668142199516296,
+        "vehicle_dice": 0.7519818544387817,
+        "vehicle_iou": 0.6025408506393433,
+        "overall_dice": 0.5738613605499268,
+        "overall_iou": 0.4246111512184143
+      },
+      {
+        "filename": "0016E5_07989.png",
+        "person_dice": 0.3947444260120392,
+        "person_iou": 0.24590753018856049,
+        "vehicle_dice": 0.7248937487602234,
+        "vehicle_iou": 0.5684967041015625,
+        "overall_dice": 0.5598191022872925,
+        "overall_iou": 0.4072021245956421
+      },
+      {
+        "filename": "Seq05VD_f03780.png",
+        "person_dice": 0.43382176756858826,
+        "person_iou": 0.27699387073516846,
+        "vehicle_dice": 0.9478490352630615,
+        "vehicle_iou": 0.9008679389953613,
+        "overall_dice": 0.6908354163169861,
+        "overall_iou": 0.5889309048652649
+      },
+      {
+        "filename": "0006R0_f01890.png",
+        "person_dice": 1.0,
+        "person_iou": 1.0,
+        "vehicle_dice": 0.9040390253067017,
+        "vehicle_iou": 0.8248825073242188,
+        "overall_dice": 0.9520195126533508,
+        "overall_iou": 0.9124412536621094
+      },
+      {
+        "filename": "Seq05VD_f04680.png",
+        "person_dice": 0.5832217931747437,
+        "person_iou": 0.4116535484790802,
+        "vehicle_dice": 1.0,
+        "vehicle_iou": 1.0,
+        "overall_dice": 0.7916108965873718,
+        "overall_iou": 0.7058267742395401
+      },
+      {
+        "filename": "Seq05VD_f01710.png",
+        "person_dice": 0.48643410205841064,
+        "person_iou": 0.3213828504085541,
+        "vehicle_dice": 0.6299376487731934,
+        "vehicle_iou": 0.4597875475883484,
+        "overall_dice": 0.558185875415802,
+        "overall_iou": 0.39058518409729004
+      },
+      {
+        "filename": "0001TP_009270.png",
+        "person_dice": 0.8444812297821045,
+        "person_iou": 0.7308242917060852,
+        "vehicle_dice": 0.9360443949699402,
+        "vehicle_iou": 0.8797776699066162,
+        "overall_dice": 0.8902628421783447,
+        "overall_iou": 0.8053009510040283
+      },
+      {
+        "filename": "0016E5_08089.png",
+        "person_dice": 0.5630970597267151,
+        "person_iou": 0.39188244938850403,
+        "vehicle_dice": 0.0,
+        "vehicle_iou": 0.0,
+        "overall_dice": 0.28154852986335754,
+        "overall_iou": 0.19594122469425201
+      },
+      {
+        "filename": "0016E5_06900.png",
+        "person_dice": 0.8982916474342346,
+        "person_iou": 0.8153625130653381,
+        "vehicle_dice": 0.9582347869873047,
+        "vehicle_iou": 0.9198183417320251,
+        "overall_dice": 0.9282631874084473,
+        "overall_iou": 0.8675904273986816
+      },
+      {
+        "filename": "0016E5_08145.png",
+        "person_dice": 0.08370213955640793,
+        "person_iou": 0.04367908462882042,
+        "vehicle_dice": 0.0,
+        "vehicle_iou": 0.0,
+        "overall_dice": 0.041851069778203964,
+        "overall_iou": 0.02183954231441021
+      },
+      {
+        "filename": "Seq05VD_f03810.png",
+        "person_dice": 0.0,
+        "person_iou": 0.0,
+        "vehicle_dice": 0.0,
+        "vehicle_iou": 0.0,
+        "overall_dice": 0.0,
+        "overall_iou": 0.0
+      },
+      {
+        "filename": "0006R0_f01050.png",
+        "person_dice": 1.0,
+        "person_iou": 1.0,
+        "vehicle_dice": 0.9667942523956299,
+        "vehicle_iou": 0.9357229471206665,
+        "overall_dice": 0.9833971261978149,
+        "overall_iou": 0.9678614735603333
+      },
+      {
+        "filename": "0001TP_009300.png",
+        "person_dice": 0.7735562324523926,
+        "person_iou": 0.6307311058044434,
+        "vehicle_dice": 0.9262638092041016,
+        "vehicle_iou": 0.8626548647880554,
+        "overall_dice": 0.8499100208282471,
+        "overall_iou": 0.7466930150985718
+      },
+      {
+        "filename": "Seq05VD_f04470.png",
+        "person_dice": 0.9406737685203552,
+        "person_iou": 0.8879925012588501,
+        "vehicle_dice": 0.0,
+        "vehicle_iou": 0.0,
+        "overall_dice": 0.4703368842601776,
+        "overall_iou": 0.44399625062942505
+      },
+      {
+        "filename": "0016E5_07991.png",
+        "person_dice": 0.3737771213054657,
+        "person_iou": 0.22984372079372406,
+        "vehicle_dice": 0.6652408242225647,
+        "vehicle_iou": 0.4983976185321808,
+        "overall_dice": 0.519508957862854,
+        "overall_iou": 0.3641206622123718
+      },
+      {
+        "filename": "0001TP_009930.png",
+        "person_dice": 0.5686689615249634,
+        "person_iou": 0.3973007798194885,
+        "vehicle_dice": 0.6368288397789001,
+        "vehicle_iou": 0.4671672284603119,
+        "overall_dice": 0.6027488708496094,
+        "overall_iou": 0.432233989238739
+      },
+      {
+        "filename": "0006R0_f03420.png",
+        "person_dice": 0.760757327079773,
+        "person_iou": 0.6138888597488403,
+        "vehicle_dice": 0.9443234801292419,
+        "vehicle_iou": 0.8945196866989136,
+        "overall_dice": 0.8525403738021851,
+        "overall_iou": 0.754204273223877
+      },
+      {
+        "filename": "0016E5_00720.png",
+        "person_dice": 0.3814444839954376,
+        "person_iou": 0.23566968739032745,
+        "vehicle_dice": 0.4492163360118866,
+        "vehicle_iou": 0.28967052698135376,
+        "overall_dice": 0.4153304100036621,
+        "overall_iou": 0.26267009973526
+      },
+      {
+        "filename": "0016E5_08149.png",
+        "person_dice": 0.07616196572780609,
+        "person_iou": 0.039588555693626404,
+        "vehicle_dice": 0.0,
+        "vehicle_iou": 0.0,
+        "overall_dice": 0.038080982863903046,
+        "overall_iou": 0.019794277846813202
+      },
+      {
+        "filename": "Seq05VD_f00810.png",
+        "person_dice": 0.8727359175682068,
+        "person_iou": 0.7742071151733398,
+        "vehicle_dice": 0.625533938407898,
+        "vehicle_iou": 0.45511049032211304,
+        "overall_dice": 0.74913489818573,
+        "overall_iou": 0.6146588325500488
+      },
+      {
+        "filename": "0016E5_01350.png",
+        "person_dice": 0.6599435210227966,
+        "person_iou": 0.49247440695762634,
+        "vehicle_dice": 0.9695706963539124,
+        "vehicle_iou": 0.9409386515617371,
+        "overall_dice": 0.8147571086883545,
+        "overall_iou": 0.7167065143585205
+      },
+      {
+        "filename": "0016E5_08107.png",
+        "person_dice": 0.407435804605484,
+        "person_iou": 0.2558363676071167,
+        "vehicle_dice": 0.4315328598022461,
+        "vehicle_iou": 0.2751303017139435,
+        "overall_dice": 0.41948431730270386,
+        "overall_iou": 0.2654833197593689
+      },
+      {
+        "filename": "0016E5_07770.png",
+        "person_dice": 0.5236794948577881,
+        "person_iou": 0.3547194004058838,
+        "vehicle_dice": 0.8551099896430969,
+        "vehicle_iou": 0.7468927502632141,
+        "overall_dice": 0.6893947124481201,
+        "overall_iou": 0.5508060455322266
+      },
+      {
+        "filename": "0016E5_02250.png",
+        "person_dice": 0.8896533250808716,
+        "person_iou": 0.8012392520904541,
+        "vehicle_dice": 0.908402144908905,
+        "vehicle_iou": 0.8321765661239624,
+        "overall_dice": 0.8990277051925659,
+        "overall_iou": 0.8167079091072083
+      },
+      {
+        "filename": "Seq05VD_f00870.png",
+        "person_dice": 0.5732294917106628,
+        "person_iou": 0.40176716446876526,
+        "vehicle_dice": 0.5897319316864014,
+        "vehicle_iou": 0.41817009449005127,
+        "overall_dice": 0.5814807415008545,
+        "overall_iou": 0.40996861457824707
+      },
+      {
+        "filename": "0016E5_04800.png",
+        "person_dice": 0.21251673996448517,
+        "person_iou": 0.11889159679412842,
+        "vehicle_dice": 0.9564067721366882,
+        "vehicle_iou": 0.9164555668830872,
+        "overall_dice": 0.5844617486000061,
+        "overall_iou": 0.5176736116409302
+      },
+      {
+        "filename": "Seq05VD_f02340.png",
+        "person_dice": 0.8202764987945557,
+        "person_iou": 0.6953125,
+        "vehicle_dice": 0.7684769034385681,
+        "vehicle_iou": 0.6240053176879883,
+        "overall_dice": 0.7943767309188843,
+        "overall_iou": 0.6596589088439941
+      },
+      {
+        "filename": "0016E5_05640.png",
+        "person_dice": 0.7584335207939148,
+        "person_iou": 0.6108682155609131,
+        "vehicle_dice": 0.9540068507194519,
+        "vehicle_iou": 0.9120584726333618,
+        "overall_dice": 0.8562201857566833,
+        "overall_iou": 0.7614633440971375
+      },
+      {
+        "filename": "0006R0_f02820.png",
+        "person_dice": 0.9346008896827698,
+        "person_iou": 0.8772308230400085,
+        "vehicle_dice": 0.9608902335166931,
+        "vehicle_iou": 0.9247244596481323,
+        "overall_dice": 0.9477455615997314,
+        "overall_iou": 0.900977611541748
+      },
+      {
+        "filename": "0006R0_f01950.png",
+        "person_dice": 0.0,
+        "person_iou": 0.0,
+        "vehicle_dice": 0.8768598437309265,
+        "vehicle_iou": 0.7807216048240662,
+        "overall_dice": 0.43842992186546326,
+        "overall_iou": 0.3903608024120331
+      },
+      {
+        "filename": "0006R0_f02550.png",
+        "person_dice": 0.4885542094707489,
+        "person_iou": 0.323236346244812,
+        "vehicle_dice": 0.9294534921646118,
+        "vehicle_iou": 0.868204653263092,
+        "overall_dice": 0.7090038657188416,
+        "overall_iou": 0.5957205295562744
+      },
+      {
+        "filename": "0016E5_06930.png",
+        "person_dice": 0.9096941947937012,
+        "person_iou": 0.8343477249145508,
+        "vehicle_dice": 0.9422693848609924,
+        "vehicle_iou": 0.8908406496047974,
+        "overall_dice": 0.9259817600250244,
+        "overall_iou": 0.8625941872596741
+      },
+      {
+        "filename": "0006R0_f01980.png",
+        "person_dice": 1.0,
+        "person_iou": 1.0,
+        "vehicle_dice": 0.8871715664863586,
+        "vehicle_iou": 0.7972221970558167,
+        "overall_dice": 0.9435857832431793,
+        "overall_iou": 0.8986110985279083
+      },
+      {
+        "filename": "0006R0_f01920.png",
+        "person_dice": 0.0,
+        "person_iou": 0.0,
+        "vehicle_dice": 0.8704575300216675,
+        "vehicle_iou": 0.7706283926963806,
+        "overall_dice": 0.43522876501083374,
+        "overall_iou": 0.3853141963481903
+      },
+      {
+        "filename": "0016E5_06330.png",
+        "person_dice": 0.0,
+        "person_iou": 0.0,
+        "vehicle_dice": 0.95647132396698,
+        "vehicle_iou": 0.9165740609169006,
+        "overall_dice": 0.47823566198349,
+        "overall_iou": 0.4582870304584503
+      },
+      {
+        "filename": "0006R0_f03480.png",
+        "person_dice": 0.0,
+        "person_iou": 0.0,
+        "vehicle_dice": 0.9423914551734924,
+        "vehicle_iou": 0.8910588622093201,
+        "overall_dice": 0.4711957275867462,
+        "overall_iou": 0.44552943110466003
+      },
+      {
+        "filename": "0001TP_009870.png",
+        "person_dice": 0.8005015850067139,
+        "person_iou": 0.6673635840415955,
+        "vehicle_dice": 0.9490312933921814,
+        "vehicle_iou": 0.9030061960220337,
+        "overall_dice": 0.87476646900177,
+        "overall_iou": 0.7851848602294922
+      },
+      {
+        "filename": "0006R0_f03450.png",
+        "person_dice": 0.0,
+        "person_iou": 0.0,
+        "vehicle_dice": 0.9533331990242004,
+        "vehicle_iou": 0.9108277559280396,
+        "overall_dice": 0.4766665995121002,
+        "overall_iou": 0.4554138779640198
+      },
+      {
+        "filename": "0016E5_07830.png",
+        "person_dice": 0.4878130853176117,
+        "person_iou": 0.32258784770965576,
+        "vehicle_dice": 0.864246129989624,
+        "vehicle_iou": 0.7609449028968811,
+        "overall_dice": 0.676029622554779,
+        "overall_iou": 0.5417664051055908
+      },
+      {
+        "filename": "0016E5_08610.png",
+        "person_dice": 0.8255587816238403,
+        "person_iou": 0.7029374837875366,
+        "vehicle_dice": 0.9304489493370056,
+        "vehicle_iou": 0.8699434399604797,
+        "overall_dice": 0.8780038356781006,
+        "overall_iou": 0.7864404916763306
+      },
+      {
+        "filename": "0006R0_f01080.png",
+        "person_dice": 1.0,
+        "person_iou": 1.0,
+        "vehicle_dice": 0.9578734040260315,
+        "vehicle_iou": 0.919152557849884,
+        "overall_dice": 0.9789367020130157,
+        "overall_iou": 0.959576278924942
+      },
+      {
+        "filename": "Seq05VD_f04710.png",
+        "person_dice": 0.8352690935134888,
+        "person_iou": 0.7171347737312317,
+        "vehicle_dice": 0.0,
+        "vehicle_iou": 0.0,
+        "overall_dice": 0.4176345467567444,
+        "overall_iou": 0.35856738686561584
+      },
+      {
+        "filename": "0001TP_009060.png",
+        "person_dice": 0.6486082077026367,
+        "person_iou": 0.4799557328224182,
+        "vehicle_dice": 0.9689233303070068,
+        "vehicle_iou": 0.9397199153900146,
+        "overall_dice": 0.8087657690048218,
+        "overall_iou": 0.709837794303894
+      },
+      {
+        "filename": "Seq05VD_f01470.png",
+        "person_dice": 0.6717605590820312,
+        "person_iou": 0.5057526230812073,
+        "vehicle_dice": 0.9279230237007141,
+        "vehicle_iou": 0.8655376434326172,
+        "overall_dice": 0.7998417615890503,
+        "overall_iou": 0.6856451034545898
+      },
+      {
+        "filename": "0016E5_02010.png",
+        "person_dice": 0.6507909893989563,
+        "person_iou": 0.48235005140304565,
+        "vehicle_dice": 0.8910279870033264,
+        "vehicle_iou": 0.8034720420837402,
+        "overall_dice": 0.7709094882011414,
+        "overall_iou": 0.6429110765457153
+      },
+      {
+        "filename": "0016E5_00480.png",
+        "person_dice": 0.0,
+        "person_iou": 0.0,
+        "vehicle_dice": 0.5576362609863281,
+        "vehicle_iou": 0.38661280274391174,
+        "overall_dice": 0.27881813049316406,
+        "overall_iou": 0.19330640137195587
+      },
+      {
+        "filename": "0016E5_08047.png",
+        "person_dice": 0.3338037431240082,
+        "person_iou": 0.20033878087997437,
+        "vehicle_dice": 0.9340147376060486,
+        "vehicle_iou": 0.8761985898017883,
+        "overall_dice": 0.6339092254638672,
+        "overall_iou": 0.5382686853408813
+      },
+      {
+        "filename": "0016E5_08007.png",
+        "person_dice": 0.3668364882469177,
+        "person_iou": 0.2246171236038208,
+        "vehicle_dice": 0.6436197757720947,
+        "vehicle_iou": 0.4745127856731415,
+        "overall_dice": 0.5052281618118286,
+        "overall_iou": 0.34956496953964233
+      },
+      {
+        "filename": "0016E5_06240.png",
+        "person_dice": 0.0,
+        "person_iou": 0.0,
+        "vehicle_dice": 0.9797844886779785,
+        "vehicle_iou": 0.9603700637817383,
+        "overall_dice": 0.48989224433898926,
+        "overall_iou": 0.48018503189086914
+      },
+      {
+        "filename": "Seq05VD_f04440.png",
+        "person_dice": 0.6002852916717529,
+        "person_iou": 0.42886263132095337,
+        "vehicle_dice": 0.0,
+        "vehicle_iou": 0.0,
+        "overall_dice": 0.30014264583587646,
+        "overall_iou": 0.21443131566047668
+      },
+      {
+        "filename": "0016E5_01320.png",
+        "person_dice": 1.0,
+        "person_iou": 1.0,
+        "vehicle_dice": 0.9658653140068054,
+        "vehicle_iou": 0.9339840412139893,
+        "overall_dice": 0.9829326570034027,
+        "overall_iou": 0.9669920206069946
+      },
+      {
+        "filename": "Seq05VD_f00840.png",
+        "person_dice": 0.5916954874992371,
+        "person_iou": 0.4201474189758301,
+        "vehicle_dice": 0.4623955488204956,
+        "vehicle_iou": 0.3007246255874634,
+        "overall_dice": 0.527045488357544,
+        "overall_iou": 0.36043602228164673
+      },
+      {
+        "filename": "0001TP_009900.png",
+        "person_dice": 0.6993388533592224,
+        "person_iou": 0.5376795530319214,
+        "vehicle_dice": 0.9331066012382507,
+        "vehicle_iou": 0.8746015429496765,
+        "overall_dice": 0.8162227272987366,
+        "overall_iou": 0.7061405181884766
+      },
+      {
+        "filename": "0016E5_07140.png",
+        "person_dice": 0.6911487579345703,
+        "person_iou": 0.5280575752258301,
+        "vehicle_dice": 0.28932714462280273,
+        "vehicle_iou": 0.1691306084394455,
+        "overall_dice": 0.4902379512786865,
+        "overall_iou": 0.3485940992832184
+      },
+      {
+        "filename": "0016E5_01980.png",
+        "person_dice": 0.6352941393852234,
+        "person_iou": 0.4655172526836395,
+        "vehicle_dice": 0.8652541637420654,
+        "vehicle_iou": 0.7625092267990112,
+        "overall_dice": 0.7502741813659668,
+        "overall_iou": 0.6140132546424866
+      },
+      {
+        "filename": "0006R0_f03390.png",
+        "person_dice": 0.797333836555481,
+        "person_iou": 0.6629719138145447,
+        "vehicle_dice": 0.946445643901825,
+        "vehicle_iou": 0.8983358144760132,
+        "overall_dice": 0.8718897104263306,
+        "overall_iou": 0.7806538343429565
+      },
+      {
+        "filename": "0016E5_08045.png",
+        "person_dice": 0.3687394857406616,
+        "person_iou": 0.22604574263095856,
+        "vehicle_dice": 0.9297358989715576,
+        "vehicle_iou": 0.8686977028846741,
+        "overall_dice": 0.6492376923561096,
+        "overall_iou": 0.5473717451095581
+      },
+      {
+        "filename": "0016E5_08051.png",
+        "person_dice": 0.3862651288509369,
+        "person_iou": 0.239360973238945,
+        "vehicle_dice": 0.9391667246818542,
+        "vehicle_iou": 0.8853103518486023,
+        "overall_dice": 0.6627159118652344,
+        "overall_iou": 0.5623356699943542
+      },
+      {
+        "filename": "0016E5_08105.png",
+        "person_dice": 0.5549062490463257,
+        "person_iou": 0.3839932382106781,
+        "vehicle_dice": 0.44046974182128906,
+        "vehicle_iou": 0.28243744373321533,
+        "overall_dice": 0.4976879954338074,
+        "overall_iou": 0.3332153558731079
+      }
+    ]
+  },
+  "timing": {
+    "baseline_time": 836.8798773288727,
+    "novel_method_time": 141.24548983573914
+  },
+  "evaluation_settings": {
+    "dataset_path": "/anvil/projects/x-soc250046/x-sishraq/SegmentAnythingModel/data/CamVid/val",
+    "max_images": 100,
+    "target_classes": [
+      "person",
+      "vehicle"
+    ]
+  }
+}

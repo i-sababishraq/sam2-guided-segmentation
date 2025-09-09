@@ -1,0 +1,727 @@
+{
+  "final_metrics": {
+    "person_dice": 0.03,
+    "person_iou": 0.02,
+    "vehicle_dice": 0.16,
+    "vehicle_iou": 0.11,
+    "overall_dice": 0.1,
+    "overall_iou": 0.07,
+    "total_time": 813.84,
+    "avg_time_per_image": 8.14,
+    "num_images": 100,
+    "num_person_samples": 90,
+    "num_vehicle_samples": 100,
+    "config": {
+      "method": "official_sam2_automatic",
+      "model_cfg": "sam2_hiera_l.yaml",
+      "uses_automatic_mask_generator": true
+    }
+  },
+  "detailed_predictions": [
+    {
+      "image": "0001TP_009030.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.9301234483718872,
+      "vehicle_iou": 0.8693745136260986
+    },
+    {
+      "image": "0001TP_009060.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.36164844036102295,
+      "vehicle_iou": 0.2207392156124115
+    },
+    {
+      "image": "0001TP_009270.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.7169318199157715,
+      "vehicle_iou": 0.5587636232376099
+    },
+    {
+      "image": "0001TP_009300.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.8407137393951416,
+      "vehicle_iou": 0.7251994609832764
+    },
+    {
+      "image": "0001TP_009870.png",
+      "person_dice": 0.1506214439868927,
+      "person_iou": 0.08144435286521912,
+      "vehicle_dice": 0.9559071660041809,
+      "vehicle_iou": 0.915538489818573
+    },
+    {
+      "image": "0001TP_009900.png",
+      "person_dice": 0.00011140323476865888,
+      "person_iou": 5.570472058025189e-05,
+      "vehicle_dice": 0.3484102785587311,
+      "vehicle_iou": 0.21095450222492218
+    },
+    {
+      "image": "0001TP_009930.png",
+      "person_dice": 0.16617463529109955,
+      "person_iou": 0.0906163901090622,
+      "vehicle_dice": 0.3353891968727112,
+      "vehicle_iou": 0.20148204267024994
+    },
+    {
+      "image": "0001TP_009960.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.34129148721694946,
+      "vehicle_iou": 0.20575734972953796
+    },
+    {
+      "image": "0006R0_f01050.png",
+      "person_dice": null,
+      "person_iou": null,
+      "vehicle_dice": 0.04397495836019516,
+      "vehicle_iou": 0.022481797263026237
+    },
+    {
+      "image": "0006R0_f01080.png",
+      "person_dice": null,
+      "person_iou": null,
+      "vehicle_dice": 0.05684550106525421,
+      "vehicle_iou": 0.029254237189888954
+    },
+    {
+      "image": "0006R0_f01290.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 4.664165680878796e-05,
+      "vehicle_iou": 2.332137228222564e-05
+    },
+    {
+      "image": "0006R0_f01320.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.0,
+      "vehicle_iou": 0.0
+    },
+    {
+      "image": "0006R0_f01890.png",
+      "person_dice": null,
+      "person_iou": null,
+      "vehicle_dice": 0.0,
+      "vehicle_iou": 0.0
+    },
+    {
+      "image": "0006R0_f01920.png",
+      "person_dice": null,
+      "person_iou": null,
+      "vehicle_dice": 0.0,
+      "vehicle_iou": 0.0
+    },
+    {
+      "image": "0006R0_f01950.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.0,
+      "vehicle_iou": 0.0
+    },
+    {
+      "image": "0006R0_f01980.png",
+      "person_dice": null,
+      "person_iou": null,
+      "vehicle_dice": 0.5352003574371338,
+      "vehicle_iou": 0.36537444591522217
+    },
+    {
+      "image": "0006R0_f02550.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.3505539000034332,
+      "vehicle_iou": 0.21252824366092682
+    },
+    {
+      "image": "0006R0_f02580.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.4075850248336792,
+      "vehicle_iou": 0.2559540271759033
+    },
+    {
+      "image": "0006R0_f02790.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.37202197313308716,
+      "vehicle_iou": 0.2285178005695343
+    },
+    {
+      "image": "0006R0_f02820.png",
+      "person_dice": 0.3619382977485657,
+      "person_iou": 0.22095522284507751,
+      "vehicle_dice": 0.36651334166526794,
+      "vehicle_iou": 0.22437486052513123
+    },
+    {
+      "image": "0006R0_f03390.png",
+      "person_dice": 0.09147366136312485,
+      "person_iou": 0.04792894795536995,
+      "vehicle_dice": 0.22788168489933014,
+      "vehicle_iou": 0.1285928189754486
+    },
+    {
+      "image": "0006R0_f03420.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.3540002703666687,
+      "vehicle_iou": 0.2150670289993286
+    },
+    {
+      "image": "0006R0_f03450.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.4139072299003601,
+      "vehicle_iou": 0.26096028089523315
+    },
+    {
+      "image": "0006R0_f03480.png",
+      "person_dice": 0.00131506088655442,
+      "person_iou": 0.0006579631008207798,
+      "vehicle_dice": 0.2685379981994629,
+      "vehicle_iou": 0.1550932079553604
+    },
+    {
+      "image": "0016E5_00480.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.0,
+      "vehicle_iou": 0.0
+    },
+    {
+      "image": "0016E5_00510.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.17989955842494965,
+      "vehicle_iou": 0.09884046018123627
+    },
+    {
+      "image": "0016E5_00720.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.0,
+      "vehicle_iou": 0.0
+    },
+    {
+      "image": "0016E5_00750.png",
+      "person_dice": null,
+      "person_iou": null,
+      "vehicle_dice": 0.00022799632279202342,
+      "vehicle_iou": 0.00011401115625631064
+    },
+    {
+      "image": "0016E5_01320.png",
+      "person_dice": null,
+      "person_iou": null,
+      "vehicle_dice": 0.1513420194387436,
+      "vehicle_iou": 0.08186588436365128
+    },
+    {
+      "image": "0016E5_01350.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.20430836081504822,
+      "vehicle_iou": 0.11377697438001633
+    },
+    {
+      "image": "0016E5_01380.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.13997727632522583,
+      "vehicle_iou": 0.07525567710399628
+    },
+    {
+      "image": "0016E5_01410.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.21561090648174286,
+      "vehicle_iou": 0.12083178013563156
+    },
+    {
+      "image": "0016E5_01980.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.09270575642585754,
+      "vehicle_iou": 0.04860590398311615
+    },
+    {
+      "image": "0016E5_02010.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.08886172622442245,
+      "vehicle_iou": 0.04649675637483597
+    },
+    {
+      "image": "0016E5_02220.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.13300131261348724,
+      "vehicle_iou": 0.07123803347349167
+    },
+    {
+      "image": "0016E5_02250.png",
+      "person_dice": 0.49094343185424805,
+      "person_iou": 0.32533136010169983,
+      "vehicle_dice": 0.17725153267383575,
+      "vehicle_iou": 0.09724409878253937
+    },
+    {
+      "image": "0016E5_04740.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.3104111850261688,
+      "vehicle_iou": 0.1837199628353119
+    },
+    {
+      "image": "0016E5_04770.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.0015878721605986357,
+      "vehicle_iou": 0.000794566934928298
+    },
+    {
+      "image": "0016E5_04800.png",
+      "person_dice": 0.0002598897262942046,
+      "person_iou": 0.00012996175792068243,
+      "vehicle_dice": 0.0006012626690790057,
+      "vehicle_iou": 0.0003007217310369015
+    },
+    {
+      "image": "0016E5_04830.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.0022250802721828222,
+      "vehicle_iou": 0.001113779260776937
+    },
+    {
+      "image": "0016E5_05400.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.19677260518074036,
+      "vehicle_iou": 0.10912246257066727
+    },
+    {
+      "image": "0016E5_05430.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.14760541915893555,
+      "vehicle_iou": 0.0796835720539093
+    },
+    {
+      "image": "0016E5_05640.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.04731135815382004,
+      "vehicle_iou": 0.024228829890489578
+    },
+    {
+      "image": "0016E5_05670.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.07843172550201416,
+      "vehicle_iou": 0.040816519409418106
+    },
+    {
+      "image": "0016E5_06240.png",
+      "person_dice": 0.0010275155073031783,
+      "person_iou": 0.0005140218418091536,
+      "vehicle_dice": 0.3836239278316498,
+      "vehicle_iou": 0.23733581602573395
+    },
+    {
+      "image": "0016E5_06270.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.2782319486141205,
+      "vehicle_iou": 0.1615966558456421
+    },
+    {
+      "image": "0016E5_06300.png",
+      "person_dice": 0.00047451461432501674,
+      "person_iou": 0.00023731360852252692,
+      "vehicle_dice": 0.44414466619491577,
+      "vehicle_iou": 0.2854665517807007
+    },
+    {
+      "image": "0016E5_06330.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.3503105342388153,
+      "vehicle_iou": 0.21234937012195587
+    },
+    {
+      "image": "0016E5_06900.png",
+      "person_dice": 0.03450365364551544,
+      "person_iou": 0.01755467802286148,
+      "vehicle_dice": 6.305990245891735e-05,
+      "vehicle_iou": 3.153094439767301e-05
+    },
+    {
+      "image": "0016E5_06930.png",
+      "person_dice": 0.31173211336135864,
+      "person_iou": 0.1846461296081543,
+      "vehicle_dice": 0.0,
+      "vehicle_iou": 0.0
+    },
+    {
+      "image": "0016E5_07140.png",
+      "person_dice": 0.006834939122200012,
+      "person_iou": 0.0034291886258870363,
+      "vehicle_dice": 0.0,
+      "vehicle_iou": 0.0
+    },
+    {
+      "image": "0016E5_07170.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 8.54920108395163e-06,
+      "vehicle_iou": 4.27461873186985e-06
+    },
+    {
+      "image": "0016E5_07740.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.0,
+      "vehicle_iou": 0.0
+    },
+    {
+      "image": "0016E5_07770.png",
+      "person_dice": 0.001013443456031382,
+      "person_iou": 0.0005069786566309631,
+      "vehicle_dice": 0.534787654876709,
+      "vehicle_iou": 0.36498984694480896
+    },
+    {
+      "image": "0016E5_07800.png",
+      "person_dice": 0.0029607696924358606,
+      "person_iou": 0.0014825797406956553,
+      "vehicle_dice": 0.2460530549287796,
+      "vehicle_iou": 0.14028534293174744
+    },
+    {
+      "image": "0016E5_07830.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.24817201495170593,
+      "vehicle_iou": 0.14166460931301117
+    },
+    {
+      "image": "0016E5_07989.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.0005759987398050725,
+      "vehicle_iou": 0.0002880823449231684
+    },
+    {
+      "image": "0016E5_07991.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.001159545499831438,
+      "vehicle_iou": 0.000580109073780477
+    },
+    {
+      "image": "0016E5_08005.png",
+      "person_dice": 3.9339101931545883e-05,
+      "person_iou": 1.9669938410515897e-05,
+      "vehicle_dice": 0.00039282807847484946,
+      "vehicle_iou": 0.00019645263091661036
+    },
+    {
+      "image": "0016E5_08007.png",
+      "person_dice": 0.1449885219335556,
+      "person_iou": 0.07816044241189957,
+      "vehicle_dice": 0.05295517295598984,
+      "vehicle_iou": 0.027197714895009995
+    },
+    {
+      "image": "0016E5_08045.png",
+      "person_dice": 0.04481411725282669,
+      "person_iou": 0.022920643910765648,
+      "vehicle_dice": 0.529902994632721,
+      "vehicle_iou": 0.3604544401168823
+    },
+    {
+      "image": "0016E5_08047.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.5469638705253601,
+      "vehicle_iou": 0.3764282464981079
+    },
+    {
+      "image": "0016E5_08049.png",
+      "person_dice": 0.05877652019262314,
+      "person_iou": 0.030278079211711884,
+      "vehicle_dice": 0.547961413860321,
+      "vehicle_iou": 0.3773738741874695
+    },
+    {
+      "image": "0016E5_08051.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.5345495343208313,
+      "vehicle_iou": 0.3647680878639221
+    },
+    {
+      "image": "0016E5_08089.png",
+      "person_dice": 0.00046541859046556056,
+      "person_iou": 0.00023276345746126026,
+      "vehicle_dice": 0.0,
+      "vehicle_iou": 0.0
+    },
+    {
+      "image": "0016E5_08091.png",
+      "person_dice": 0.21603216230869293,
+      "person_iou": 0.12109644711017609,
+      "vehicle_dice": 0.0,
+      "vehicle_iou": 0.0
+    },
+    {
+      "image": "0016E5_08105.png",
+      "person_dice": 0.1356663554906845,
+      "person_iou": 0.07276935130357742,
+      "vehicle_dice": 0.0,
+      "vehicle_iou": 0.0
+    },
+    {
+      "image": "0016E5_08107.png",
+      "person_dice": 0.17276902496814728,
+      "person_iou": 0.09455237537622452,
+      "vehicle_dice": 0.00017665243649389595,
+      "vehicle_iou": 8.833401807351038e-05
+    },
+    {
+      "image": "0016E5_08145.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 3.060279777855612e-05,
+      "vehicle_iou": 1.530163353891112e-05
+    },
+    {
+      "image": "0016E5_08147.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.00025502327480353415,
+      "vehicle_iou": 0.0001275279064429924
+    },
+    {
+      "image": "0016E5_08149.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.00020972054335288703,
+      "vehicle_iou": 0.00010487127292435616
+    },
+    {
+      "image": "0016E5_08151.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.00012755631178151816,
+      "vehicle_iou": 6.378222315106541e-05
+    },
+    {
+      "image": "0016E5_08610.png",
+      "person_dice": 0.038116294890642166,
+      "person_iou": 0.019428417086601257,
+      "vehicle_dice": 0.0,
+      "vehicle_iou": 0.0
+    },
+    {
+      "image": "0016E5_08640.png",
+      "person_dice": 0.013443762436509132,
+      "person_iou": 0.006767370738089085,
+      "vehicle_dice": 0.0,
+      "vehicle_iou": 0.0
+    },
+    {
+      "image": "Seq05VD_f00180.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.2011800855398178,
+      "vehicle_iou": 0.11184003204107285
+    },
+    {
+      "image": "Seq05VD_f00210.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.10100281983613968,
+      "vehicle_iou": 0.053187452256679535
+    },
+    {
+      "image": "Seq05VD_f00780.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.0,
+      "vehicle_iou": 0.0
+    },
+    {
+      "image": "Seq05VD_f00810.png",
+      "person_dice": 0.0024135850835591555,
+      "person_iou": 0.00120825064368546,
+      "vehicle_dice": 0.0,
+      "vehicle_iou": 0.0
+    },
+    {
+      "image": "Seq05VD_f00840.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 7.803721018717624e-06,
+      "vehicle_iou": 3.901875516021391e-06
+    },
+    {
+      "image": "Seq05VD_f00870.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.0,
+      "vehicle_iou": 0.0
+    },
+    {
+      "image": "Seq05VD_f01440.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.31119421124458313,
+      "vehicle_iou": 0.1842688024044037
+    },
+    {
+      "image": "Seq05VD_f01470.png",
+      "person_dice": 0.04529067128896713,
+      "person_iou": 0.023170029744505882,
+      "vehicle_dice": 0.24425724148750305,
+      "vehicle_iou": 0.13911902904510498
+    },
+    {
+      "image": "Seq05VD_f01680.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.0,
+      "vehicle_iou": 0.0
+    },
+    {
+      "image": "Seq05VD_f01710.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.0,
+      "vehicle_iou": 0.0
+    },
+    {
+      "image": "Seq05VD_f02280.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.0,
+      "vehicle_iou": 0.0
+    },
+    {
+      "image": "Seq05VD_f02310.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.0,
+      "vehicle_iou": 0.0
+    },
+    {
+      "image": "Seq05VD_f02340.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.0,
+      "vehicle_iou": 0.0
+    },
+    {
+      "image": "Seq05VD_f02370.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.0,
+      "vehicle_iou": 0.0
+    },
+    {
+      "image": "Seq05VD_f02940.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.0,
+      "vehicle_iou": 0.0
+    },
+    {
+      "image": "Seq05VD_f02970.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.0,
+      "vehicle_iou": 0.0
+    },
+    {
+      "image": "Seq05VD_f03180.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 9.760223474586383e-05,
+      "vehicle_iou": 4.880350024905056e-05
+    },
+    {
+      "image": "Seq05VD_f03210.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.0,
+      "vehicle_iou": 0.0
+    },
+    {
+      "image": "Seq05VD_f03780.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.09481640160083771,
+      "vehicle_iou": 0.049767594784498215
+    },
+    {
+      "image": "Seq05VD_f03810.png",
+      "person_dice": null,
+      "person_iou": null,
+      "vehicle_dice": 8.007687574718148e-05,
+      "vehicle_iou": 4.004003858426586e-05
+    },
+    {
+      "image": "Seq05VD_f03840.png",
+      "person_dice": null,
+      "person_iou": null,
+      "vehicle_dice": 0.0,
+      "vehicle_iou": 0.0
+    },
+    {
+      "image": "Seq05VD_f03870.png",
+      "person_dice": null,
+      "person_iou": null,
+      "vehicle_dice": 0.0,
+      "vehicle_iou": 0.0
+    },
+    {
+      "image": "Seq05VD_f04440.png",
+      "person_dice": 0.1511237621307373,
+      "person_iou": 0.08173816651105881,
+      "vehicle_dice": 0.0,
+      "vehicle_iou": 0.0
+    },
+    {
+      "image": "Seq05VD_f04470.png",
+      "person_dice": 0.40943506360054016,
+      "person_iou": 0.25741487741470337,
+      "vehicle_dice": 0.0,
+      "vehicle_iou": 0.0
+    },
+    {
+      "image": "Seq05VD_f04680.png",
+      "person_dice": 0.0,
+      "person_iou": 0.0,
+      "vehicle_dice": 0.0,
+      "vehicle_iou": 0.0
+    },
+    {
+      "image": "Seq05VD_f04710.png",
+      "person_dice": 0.04782891273498535,
+      "person_iou": 0.024500368162989616,
+      "vehicle_dice": 0.0,
+      "vehicle_iou": 0.0
+    }
+  ],
+  "config": {
+    "method": "official_sam2_automatic",
+    "model_cfg": "sam2_hiera_l.yaml",
+    "uses_automatic_mask_generator": true
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "person_dice": 0.03,
+  "person_iou": 0.02,
+  "vehicle_dice": 0.16,
+  "vehicle_iou": 0.11,
+  "overall_dice": 0.1,
+  "overall_iou": 0.07,
+  "total_time": 813.84,
+  "avg_time_per_image": 8.14,
+  "num_images": 100,
+  "num_person_samples": 90,
+  "num_vehicle_samples": 100,
+  "config": {
+    "method": "official_sam2_automatic",
+    "model_cfg": "sam2_hiera_l.yaml",
+    "uses_automatic_mask_generator": true
+  }
+}
